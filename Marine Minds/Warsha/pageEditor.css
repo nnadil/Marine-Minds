@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: rgb(20, 84, 100);
+    color: white;
+}
+.header {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(20, 84, 100);
+    font-size: 30px;
+}
+.separator {
+    border-color: aliceblue;
+    border-radius: 2px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.info {
+    font-size: 18px;
+    font-weight: bold;
+}
+.job-section {
+    background-color: rgb(5, 47, 57);
+    margin: -10px;
+    padding: 20px;
+}
+.jump-link {
+    padding: 10px;
+    font-size: 20px;
+    color:beige;
+    font-weight: bold;
+}
+.job-title {
+    
+    font-size: 20px;
+    padding-top: 15px;
+}
+.job-description {
+    font-size: 17px;
+    padding-top: 10px;
+}
+.link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    background-color: rgb(8, 54, 66);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.link:hover {
+    background-color: rgb(11, 66, 79);
+}

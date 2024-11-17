@@ -1,0 +1,100 @@
+.body{
+    top:0;
+    padding:0;
+    font-family:sans-serif;
+}
+img{
+    position: absolute;
+    width:400px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#image1{
+    top:130px;
+    left: 65%;
+    box-shadow: 5px 5px 8px 5px #888888
+}
+#image2{
+    top:590px;
+    left: 65%;
+    box-shadow: 5px 5px 8px 5px #888888
+}
+#image3{
+    top:1029px;
+    left: 65%;
+    box-shadow: 5px 5px 8px 5px #888888
+}
+.p1{
+    margin-left: 12%;
+    margin-top: 30px;
+    width:500px;
+}
+
+.p2{
+    margin-left: 12%;
+    width:600px;
+}
+
+.p3{
+    margin-left: 12%;
+    width:400px;
+       
+}
+
+.p4{
+    margin-left: 12%;
+    width:500px;
+
+}
+
+.p5{
+    margin-left: 12%;
+    width:500px;
+}
+
+.p6{
+    margin-left: 12%;
+    margin-top: 30px;
+    width:500px;
+}
+
+.p7{
+    margin-left: 12%;
+    width:400px;
+}
+
+
+.top{
+    margin-bottom: 100px;
+}
+.middle{
+    margin-bottom: 65px;
+}
+.bottom{
+    margin-bottom: 15px;
+}
+span{
+    font-size: 70px;
+}
+.container{
+    margin-left: 70px;
+}
+#back{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+    text-decoration: none;
+}
+#backA{
+    text-decoration: none;
+}
+
+#backA:hover{
+    text-decoration: underline solid 3px;
+}

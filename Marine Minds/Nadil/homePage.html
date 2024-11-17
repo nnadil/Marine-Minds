@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="javaScript.js"></script>
+        <title>MARINE MINDS</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="top">
+            <a href="../isumi/splash screen.html"><img src="MARINEMINDSLOGO.png" alt="logo"></a>
+            <ul>
+                <li><a href="../nadil/homePage.html">Home</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="../Warsha/gAllery.html">Gallery</a></li>
+                <li><a href="../isumi/shop.html">Shop</a></li>
+                <li><a href="../warsha/sitemap.html">Sitemap</a></li>
+                <li><a href="#">User Profile</a></li>
+                <li><a href="#detailslink">Feed Back</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="slide slide-1"></div>
+            <div class="slide slide-2"></div>
+            <div class="slide slide-3"></div>
+        </div>
+        <div class="main-content">
+            <h1>Welcome to Marine Minds</h1>
+            <p>Explore and protect the ocean's depths with Marine Minds, <br>showcasing marine life's wonders like coral reefs and sea creatures, 
+                <br>while understanding, appreciating, and protecting our ecosystems.</p>
+        </div>
+        <div class="about-us">
+            <h1>About Us</h1>
+            <p>Our organization is dedicated to exploring and protecting the diverse life that thrives beneath the waves. 
+                Through engaging and informative content, we aim to raise awareness about the importance of marine ecosystems. 
+                Our team of passionate experts understands the critical need for conservation and works tirelessly to promote initiatives that 
+                safeguard our oceans. We believe in creating a connection between people and the underwater world, inspiring a global community to 
+                take action in preserving these vital habitats for future generations.</p>
+            <img src="about-us.jpg" id=about-usImage alt="about-usimage">
+        </div>
+        <div class="contact">
+            <h1  id="detailslink">Get in Touch</h1>
+            <p id="here">We'd love to hear from you! Whether you have questions about our products, 
+                <br>want to learn more about our conservation efforts, or are interested in getting involved, 
+                feel free to reach out. </p>
+            <form>
+                <div class="feedback"></div>
+                <div class="details">
+                    <h3>Feedback Form</h3>
+                    <label for="name">Enter your name: </label>
+                    <input type="text" id=name name="Name" placeholder="Enter Name" required><br>
+
+                    <label for="email">Enter your email: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+                    <p>Was this your first time visiting?</p><br>
+
+                    <label for="visiting">Yes</label>
+                    <input type="radio" id="visiting" name="visit" value="Yes" required>
+
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="visit" value="No">
+                    <p>Was this website informative and easy to navigate through?</p><br>
+
+                    <label for="easy">Yes</label>
+                    <input type="radio" id="easy" name="easy" value="Yes" required>
+
+                    <label for="Neasy">No</label>
+                    <input type="radio" id="Neasy" name="easy" value="No">
+
+                    <p>If "No",suggest any improvements for the future:</p><br>
+                    <textarea required placeholder="Add your message here..." id="textarea"></textarea><br><br>
+
+                    <p>How satisfied are you with Our services? Choose from 0 to 10, with 1 being 
+                        <br>"Not satisfied at all!" and 10 being "Extremely satisfied!"</p><br>
+                    <div class="radiobtn">
+                        <label for="1">1</label>
+                        <input type="radio" id="1" name="stars" value="1" class="input"  required>
+    
+                        <label for="2" class="label">2</label>
+                        <input type="radio" id="2" name="stars" value="2" class="input">
+    
+                        <label for="3" class="label">3</label>
+                        <input type="radio" id="3" name="stars" value="3" class="input">
+    
+                        <label for="4" class="label">4</label>
+                        <input type="radio" id="4" name="stars" value="4" class="input">
+    
+                        <label for="5" class="label">5</label>
+                        <input type="radio" id="5" name="stars" value="5" class="input">
+    
+                        <label for="6" class="label">6</label>
+                        <input type="radio" id="6" name="stars" value="6" class="input">
+    
+                        <label for="7" class="label">7</label>
+                        <input type="radio" id="7" name="stars" value="7" class="input">
+    
+                        <label for="8" class="label">8</label>
+                        <input type="radio" id="8" name="stars" value="8" class="input">
+    
+                        <label for="9" class="label">9</label>
+                        <input type="radio" id="9" name="stars" value="9" class="input">
+    
+                        <label for="10" class="label">10</label>
+                        <input type="radio" id="10" name="stars" value="10" class="input">
+                    </div><br>
+
+                    <p>Would you recommend our services?</p><br>
+                    <label for="Y">Yes</label>
+                    <input type="radio" name="RY" id="Y" value="Yes" required>
+
+                    <label for="N">No</label>
+                    <input type="radio" name="RY" id="N" value="No"><br>
+
+                    <label for="offers">Would you like to recieve updates about the website and any offers?</label><br><br>
+                    <select id="offers" name="offers">
+                        <option value="Yes-via Email">Yes-via Email</option>
+                        <option value="No">No</option>
+                    </select><br><br>
+
+                    <label for="additional">Do you have additional questions or requests?</label><br><br>
+                    <textarea id="additional" name="additional" placeholder="Add your message here..."  required></textarea><br>
+                    <button type="button" name="preview" id="btn1" onclick="openPopup()">Preview</button>
+                    <button type="submit" name="send" id="btn" onclick="openPopup1()">Submit</button>
+                </div>
+            </form>
+            <P><br><br></P>
+        </div>
+        <div class="popup" id="popup">
+            <h2>Details</h2>
+            <p class="output" id="output1"></p>
+            <input type="button" id="btnOK" value="Ok">
+        </div>
+        <div class="popup1" id="popup1">
+            <img src="tick.webp" alt="tickimg">
+            <h2>Thank You!</h2>
+            <p>Your details has been successfully submitted. Thanks!</p>
+            <input type="button" id="btnOK1" value="Ok">
+        </div>
+        <footer>
+            <p id="fot">&copy; 2024 My Website. All rights reserved.</p>
+            <p><a href="pageeditor.html">Page Editor</a> | <a href="contentPage.html">Content Page</a></p>
+            <p>Follow Us</p>
+            <a href="https://www.facebook.com/"><img src="facebook.png" alt="facebookimage"></a>
+            <a href="https://www.instagram.com/"><img src="instergram.png" alt="instergramimage"></a>
+            <a href="https://www.twitter.com"><img src="twitter.png" alt="twitterimage"></a>
+        </footer>
+    </body>
+</html>
